@@ -2,4 +2,4 @@
 
 Using template provided by React + Vite
 
-LHY's firstever website project
+LHY's firstever web project
