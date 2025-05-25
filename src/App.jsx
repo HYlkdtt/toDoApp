@@ -56,7 +56,7 @@ function App() {
       
       <div className="input-group">
         <input
-          type="text"
+          type="text" 
           placeholder="Add your new todo"
           value={taskText}
           onChange={function(e) { setTaskText(e.target.value); }}
@@ -70,7 +70,7 @@ function App() {
           return (
             <li
               key={idx}
-              className={'task-item' + (task.completed ? ' completed' : '')}
+              className={'task-item' + (task.completed ? ' completed ' : '')}
             >
               <span onClick={function() { toggleComplete(idx); }}>
                 {task.text}
